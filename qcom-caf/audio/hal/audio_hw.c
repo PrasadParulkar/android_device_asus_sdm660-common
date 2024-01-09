@@ -9981,11 +9981,7 @@ static void adev_close_input_stream(struct audio_hw_device *dev,
     }
 
     if (audio_extn_compr_cap_enabled() &&
-<<<<<<< HEAD
-            audio_extn_compr_cap_format_supported((audio_format_t)in->config.format))
-=======
             audio_extn_compr_cap_format_supported(pcm_format_to_audio_format((in->config).format)))
->>>>>>> 9be1c318 (hal: Fix compile issues for android U.)
         audio_extn_compr_cap_deinit();
 
     if (audio_extn_cin_attached_usecase(in))
