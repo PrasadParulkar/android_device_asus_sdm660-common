@@ -622,6 +622,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal> <!-- QCC HAL Service -->
     <sepolicy>
-        <version>33.0</version>
+        <version>34.0</version>
     </sepolicy>
 </manifest>
