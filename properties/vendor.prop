@@ -138,6 +138,9 @@ vendor.fm.a2dp.conc.disabled=false
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
