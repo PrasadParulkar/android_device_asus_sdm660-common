@@ -431,7 +431,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh
 
 PRODUCT_PACKAGES += \
-    fstab.qcom \
+    fstab.zram \
     init.logcat.rc \
     init.qcom.asus.rc \
     init.qcom.rc \
