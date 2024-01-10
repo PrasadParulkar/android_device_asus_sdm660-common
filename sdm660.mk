@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.frameworks.displayservice@1.0.vendor
 
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 # Display Device Config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/displayconfig/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml
