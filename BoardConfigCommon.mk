@@ -67,7 +67,7 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0xc170000 androidboot.hardware=qcom
-BOARD_KERNEL_CMDLINE += user_debug=31 androidboot.boot_devices=soc/c0c4000.sdhci msm_rtb.filter=0x37 ehci-hcd.park=3
+BOARD_KERNEL_CMDLINE += user_debug=31 androidboot.init_fatal_reboot_target=recovery androidboot.boot_devices=soc/c0c4000.sdhci msm_rtb.filter=0x37 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += service_locator.enable=1 loop.max_part=7
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
