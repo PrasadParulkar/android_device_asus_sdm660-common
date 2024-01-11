@@ -147,6 +147,11 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 
+# Disable sparse on all filesystem images
+TARGET_USERIMAGES_SPARSE_EROFS_DISABLED := true
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
