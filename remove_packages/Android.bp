@@ -33,6 +33,10 @@ android_app_import {
         "RecorderPrebuilt",
         "YouTube",
         "YouTubeMusicPrebuilt",
+        "talkback"
+        "GoogleTTS",
+        "Photos",
+        "DiagnosticsToolPrebuilt",         
     ],
 
     apk: "null",
